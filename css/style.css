@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freeman&family=Sedan+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+
+.introimage{
+    background-attachment: fixed;
+    background-image: url("../pildid/pexels-maxandrey-1197095.jpg");
+    background-position: top;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color: #aab0be79;
+    border: 2px solid #aab0be;
+    color: #bc9063;
+    display: inline-block;
+    font-size: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.intro-image__link a:hover {
+    transform:scale(1.05)
+}
+
+.intro-text{
+    background-color: #9197a8;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.intro-text__textbox h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.quality-image {
+    background-attachment: fixed;
+    background-image: url("../pildid/pexels-pixabay-327540.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-image__link a{
+    color: #bc9063;
+    text-decoration: none;
+    font-size: 5rem;
+    padding: 1rem;
+    background-color: #aab0be83;
+    border: 2px solid #aab0be;
+    transition: all 0.5s ease-in-out;
+
+}
+.quality-image__link:hover{
+    transform:scale(1.05);
+}
+.quality-text{
+    background-color: #d8deec;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    transition: all 0.5s ease-in-out;
+}
+.quality-text__textbox h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.footer{
+    height: 250px;
+    background-color: lightslategray;
+    color: #a39e6f;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.footer ul li{
+    display: inline-block;
+}
+
+.footer ul li a{
+    color: #a39e6f;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.footer ul li:hover{
+    transform: scale(1.1);
+}
+.algus-image{
+    background-attachment: fixed;
+    background-image: url("../pildid/nant_y_garnedd_1-image\(1000x750-crop\).jpeg");
+    background-size:cover ;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.algus-image__link a{
+    color: #bc9063;
+    text-decoration: none;
+    font-size: 5rem;
+    padding: 1rem;
+    background-color: #aab0be83;
+    border: 2px solid #aab0be;
+    transition: all 0.5s ease-in-out;
+}
+.algus-image__link:hover{
+    transform: scale(1.1);
+}
+.algus-tekst{
+    background-color: #d8deec;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    transition: all 0.5s ease-in-out;
+}
